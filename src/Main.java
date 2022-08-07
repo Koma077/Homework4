@@ -40,7 +40,7 @@ public class Main {
 
 
         //Задача 5
-        int monthNumber =12;
+        int monthNumber =13;
         switch (monthNumber){
             case 1:
             case 2:
@@ -62,6 +62,8 @@ public class Main {
             case 11:
                 System.out.println("Осень");
             break;
+            default:
+            System.out.println("Некоректный месяц " + monthNumber);
         }
 
 
